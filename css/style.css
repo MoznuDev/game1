@@ -1,0 +1,368 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1320px;
+  margin: 0;
+}
+
+#gameFull{
+  padding: 250px 0;
+  background: #dddd;
+}
+/* One Screen Start */
+.gameScreenOne{
+  padding: 250px 150px;
+  background: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+.gameScreenOne h1{
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+}
+.gameScreenOne .oneInput{
+  padding: 15px 30px;
+  width: 100%;
+  border-radius: 80px;
+  border: 1px solid green;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.oneInput::placeholder{
+  font-size: 25px;
+  font-weight:600;
+  color: antiquewhite;
+}
+.startGameOne{
+  padding: 15px 50px;
+  background: brown;
+  border: none;
+  border-radius: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.oneError{
+  padding: 10px 50px;
+  background: red;
+  border-radius: 10px;
+  border: none;
+  margin: 0 auto;
+  display: none;
+}
+.oneError h2{
+  font-size:15px;
+  color: white;
+  font-weight: 700;
+}
+/* One Screen End  */
+
+/* Two Screen Start */
+.gameScreenTwo{
+  padding: 250px 150px;
+  background: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  display: none;
+}
+.gameScreenTwo h1{
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+}
+.gameScreenTwo .twoInput{
+  padding: 15px 30px;
+  width: 100%;
+  border-radius: 80px;
+  border: 1px solid green;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.twoInput::placeholder{
+  font-size: 25px;
+  font-weight:600;
+  color: antiquewhite;
+}
+.startGameTwo{
+  padding: 15px 50px;
+  background: brown;
+  border: none;
+  border-radius: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.twoError{
+  padding: 10px 0;
+  background: red;
+  border-radius: 10px;
+  border: none;
+  margin: 0 auto;
+  display: none;
+}
+.twoError h2{
+  font-size: 15px 0;
+  color: white;
+  
+}
+/* Two Screen End  */
+
+/* Three Screen Start */
+.gameScreenThree{
+  padding: 250px 150px;
+  background: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  display: none;
+}
+.gameScreenThree h1{
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+}
+.gameScreenThree .threeInput{
+  padding: 15px 30px;
+  width: 100%;
+  border-radius: 80px;
+  border: 1px solid green;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.threeInput::placeholder{
+  font-size: 25px;
+  font-weight:600;
+  color: antiquewhite;
+}
+.startGameThree{
+  padding: 15px 50px;
+  background: brown;
+  border: none;
+  border-radius: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.threeError{
+  padding: 10px 0;
+  background: red;
+  border-radius: 10px;
+  border: none;
+  margin: 0 auto;
+  display: none;
+}
+.threeError h2{
+  font-size: 15px;
+  color: white;
+  
+}
+/* Three Screen End  */
+
+/* Four Screen Start */
+.gameScreenFour{
+  padding: 250px 150px;
+  background: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  display: none;
+}
+.gameScreenFour h1{
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+}
+.gameScreenFour .fourInput{
+  padding: 15px 30px;
+  width: 100%;
+  border-radius: 80px;
+  border: 1px solid green;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.fourInput::placeholder{
+  font-size: 25px;
+  font-weight:600;
+  color: antiquewhite;
+}
+.startGameFour{
+  padding: 15px 50px;
+  background: brown;
+  border: none;
+  border-radius: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.fourError{
+  padding: 10px 0;
+  background: red;
+  border-radius: 10px;
+  border: none;
+  width: 50%;
+  margin: 0 auto;
+  display: none;
+}
+.fourError h2{
+  font-size: 15px;
+  color: white;
+ 
+}
+/* Four Screen End  */
+
+/* Five Screen Start */
+.gameScreenFive{
+  padding: 250px 150px;
+  background: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  display: none;
+}
+.gameScreenFive h1{
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+}
+.gameScreenFive .fiveInput{
+  padding: 15px 30px;
+  width: 100%;
+  border-radius: 80px;
+  border: 1px solid green;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.fiveInput::placeholder{
+  font-size: 25px;
+  font-weight:600;
+  color: antiquewhite;
+}
+.startGameFive{
+  padding: 15px 50px;
+  background: brown;
+  border: none;
+  border-radius: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.fiveError{
+  padding: 10px 0;
+  background: red;
+  border-radius: 10px;
+  border: none;
+  width: 50%;
+  margin: 0 auto;
+  display: none;
+}
+.fiveError h2{
+  font-size: 15px;
+  color: white;
+  
+}
+/* Five Screen End  */
+
+/* Six Screen Start */
+.gameScreenSix{
+  padding: 250px 150px;
+  background: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  display: none;
+}
+.gameScreenSix h1{
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+}
+.gameScreenSix .sixInput{
+  padding: 15px 30px;
+  width: 100%;
+  border-radius: 80px;
+  border: 1px solid green;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.sixInput::placeholder{
+  font-size: 25px;
+  font-weight:600;
+  color: antiquewhite;
+}
+.startGameSix{
+  padding: 15px 50px;
+  background: brown;
+  border: none;
+  border-radius: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sixError{
+  padding: 10px 0;
+  background: red;
+  border-radius: 10px;
+  border: none;
+  width: 50%;
+  margin: 0 auto;
+  display: none;
+}
+.sixError h2{
+  font-size: 15px;
+  color: white;
+ 
+}
+/* Six Screen End  */
+
+/* Seven Screen Start */
+.gameScreenSeven{
+  padding: 250px 150px;
+  background: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  display: none;
+}
+.gameScreenSeven h1{
+  font-size: 26px;
+  font-weight: 700;
+  color: black;
+}
+.gameScreenOne .oneInput{
+  padding: 15px 30px;
+  width: 100%;
+  border-radius: 80px;
+  border: 1px solid green;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.oneInput::placeholder{
+  font-size: 25px;
+  font-weight:600;
+  color: antiquewhite;
+}
+.startGameOne{
+  padding: 15px 50px;
+  background: brown;
+  border: none;
+  border-radius: 80px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.oneError h2{
+  padding: 10px 0;
+  background: red;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+/* Seven Screen End  */
